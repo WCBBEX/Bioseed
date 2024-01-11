@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "bioseed",
+	"version": "0.1",
+	"name": "Bioseed",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"WCBBEX"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/WCBBEX/Bioseed"
+	},
+	"license": "MIT",
+	"icon": "assets/bioseed/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.bioseed.Bioseed",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "com.bioseed.BioseedDataGenerator",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"bioseed.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.23",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.10"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

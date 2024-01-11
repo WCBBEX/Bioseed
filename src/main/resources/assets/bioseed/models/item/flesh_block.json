@@ -1,0 +1,4 @@
+{
+  "parent": "bioseed:block/flesh_block",
+  "gui_light": "front"
+}

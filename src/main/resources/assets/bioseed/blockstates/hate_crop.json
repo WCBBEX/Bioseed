@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "age=0": { "model": "bioseed:block/hate_age_0"}
+  }
+}
