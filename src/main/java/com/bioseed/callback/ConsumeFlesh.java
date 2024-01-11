@@ -1,7 +1,7 @@
 package com.bioseed.callback;
 
 
-import com.bioseed.block.crop.Disposable;
+import com.bioseed.block.crops.Disposable;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;

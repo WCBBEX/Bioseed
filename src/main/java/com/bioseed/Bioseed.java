@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 
 public class Bioseed implements ModInitializer {
+
 	public static final String MOD_ID = "bioseed";
 
 
@@ -21,7 +22,9 @@ public class Bioseed implements ModInitializer {
 		ItemRegister.registry();
 		new ModGroup();
 
+
 		//注册回调函数
 		PlayerBlockBreakEvents.AFTER.register(new ConsumeFlesh());
+
 	}
 }

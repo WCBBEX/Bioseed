@@ -1,6 +1,6 @@
 package com.bioseed.block;
 
-import com.bioseed.block.crop.HateCrop;
+import com.bioseed.block.crops.HateCrop;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
